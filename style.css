@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(22, 22, 22) ;
+    gap: 150px;
+}
+#container, #containerLista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgba(232, 223, 223, 0.963);
+}
+h1,#mensagem,h2{
+    color:rgba(15, 220, 220, 0.816);
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#adicionandoTarefa {
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+}
+
+input,button,select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    color: grey;
+    font-size: 1rem;
+}
+
+input{
+    width: 80%;
+}
+select{
+    background-color: rgba(40, 38, 38, 0.785);
+    color: aliceblue ;
+}
+.inputEditarTarefa:focus{
+   outline: none;
+    box-shadow: 0 2px 5px 2px rgba(26, 25, 25, 0.723);
+
+}
+
+button{
+    transition: ease 0.5s;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 1px 5px 3px rgba(15, 220, 220, 0.816);
+}
+
+button:hover{
+    background-color:rgba(11, 122, 122, 0.816);
+    color: aliceblue;
+}
+
+
+p,h2{
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li{
+    background-color: rgba(40, 38, 38, 0.785);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+li p{
+    margin: 0;
+}
+
+.botaoExcluir,.botaoConcluir,.botaoEditar,.botaoSalvar,.botaoCancelar{
+    background-color: brown;
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px 2px rgba(26, 25, 25, 0.723);
+    border: none;
+}
+
+.botaoConcluir,.botaoSalvar{
+    background-color: forestgreen;
+}
+.botaoEditar{
+    background-color: rgb(12, 80, 207);
+}
+
+.botaoEditar:hover{
+    background-color: rgb(7, 46, 118);
+}
+.botaoConcluir:hover,.botaoSalvar:hover{
+    background-color: rgb(17, 67, 17);
+}
+.botaoExcluir:hover,.botaoCancelar:hover{
+    background-color: rgb(99, 24, 24);
+}
+
+.tarefaConfirmada,.botaoExcluirDesabilitado,.botaoEditarDesabilitado,.statusDesabilitado{
+    text-decoration: line-through;
+    color: gray;
+ 
+}
+.botaoExcluirDesabilitado,.botaoEditarDesabilitado,.botaoExcluirDesabilitado:hover,.botaoEditarDesabilitado:hover{
+    background-color: rgb(26, 26, 26);
+    color: gray
+}
+
+#contador{
+    background-color:rgba(232, 223, 223, 0.963);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+#contador p{
+    margin: 0;
+}
+
+.tarefaContador,.botaoLista{
+    background-color:rgba(15, 220, 220, 0.816);
+    border-radius: 10px;
+    height: 40px;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+     color: rgba(22, 21, 21, 0.789)
+}
+
+#botoes{
+     display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoLista{
+    box-shadow: 0 1px 5px 3px rgba(7, 110, 110, 0.816);
+}
+.prioridadeAlta{
+    background-color: brown;
+    height: 20px;
+    width: 20px;
+    border-radius:20px;
+}
+.prioridadeAlta,.prioridadeMedia,.prioridadeBaixa{
+    background-color: brown;
+    height: 20px;
+    width: 20px;
+    border-radius:20px;
+}
+
+.prioridadeMedia{
+    background-color: rgb(165, 116, 42);
+}
+
+.prioridadeBaixa {
+    background-color: rgb(77, 165, 42);
+}
+  
+@media screen and (max-width:1100px) {
+    body{
+    margin: 50px;
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    }
+
+    
+}
