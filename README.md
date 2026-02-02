@@ -3,6 +3,8 @@
 ![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Concluído-2ECC71)
+![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-181717?logo=github)
+
 
 
 
@@ -68,15 +70,8 @@ Por fim, aprendi a integrar **LocalStorage** ao fluxo da aplicação, garantindo
 
 ## Como rodar o projeto
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/anaolr/gerenciador-de-tarefas.git
-```
-2. Acesse a pasta do projeto:
-```bash
-cd gerenciador-de-tarefas
-```
-3. Abra o arquivo **index.html** no navegador ou utilize a extensão **Live Server** no VS CODE.
+ **Acesse o projeto:**  
+https://anaolr.github.io/gerenciador-de-tarefas/
 
 ---
 Projeto desenvolvido para fins de estudo e prática de JavaScript moderno, organização de código e lógica de aplicações front-end.
