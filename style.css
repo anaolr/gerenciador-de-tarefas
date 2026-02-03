@@ -193,7 +193,7 @@ li p{
     
 }
 
-/* Responsividade para telas pequenas (celulares) */
+
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
@@ -217,12 +217,6 @@ li p{
     #adicionandoTarefa {
         flex-direction: column;
         gap: 10px;
-    }
-
-    li {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
     }
 
     .botaoExcluir, .botaoConcluir, .botaoEditar, .botaoSalvar, .botaoCancelar {
