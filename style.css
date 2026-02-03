@@ -208,7 +208,7 @@ li p{
         padding: 0 10px;
     }
 
-    input, select, button {
+    input, select, button,li {
         width: 100%;
         font-size: 0.9rem;
         padding: 8px;
